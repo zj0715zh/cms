@@ -1,7 +1,7 @@
 <template>
 <section id="leftSide">
 	<div class="Collapse">
-	    <a href="javascript:;" class="btn_Collapse" @click="toggle">{{isCollapse?'展开':'收起'}}</a>
+	    <a href="javascript:;" class="btn_Collapse" @click="toggle"></a>
 	</div>
 	<el-menu default-active="1-4-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="isCollapse" theme="dark">
 		<a href="javascript:;" @click="toggle" style="background: #121a2c;">
