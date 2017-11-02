@@ -11,3 +11,6 @@ npm install
 
 # 第二步启动本地服务器，默认端口为8282
 npm run dev
+
+# 构建步骤
+npm run build
